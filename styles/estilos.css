@@ -1,0 +1,55 @@
+body {
+  background-color: cadetblue;
+  font-family: "Times New Roman", Times, serif;
+}
+.calculadora {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  margin-top: 5rem;
+  align-items: left;
+  width: 50rem;
+  /* background-color: blue; */
+}
+.row {
+  margin: 2rem 2rem 1rem 2rem;
+}
+.separacion {
+  border: 1px solid black;
+  height: 1px;
+  /* margin: 0rem 0rem 0rem 2rem; */
+  width: 100%;
+}
+.row-botsep{
+  margin: 0rem 2rem;
+}
+.botsep {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+}
+.boton {
+  border-radius: 50%;
+  background-color: blueviolet;
+  padding: 1rem;
+}
+.results {
+  color: blueviolet;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+.row-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+
+}
+.row-card h1 {
+  font-size: 5rem;
+  font-weight: bold;
+}
